@@ -2,9 +2,9 @@
 
 一个自动监控QQ空间动态并将其同步到WordPress网站的工具。支持通过特定标签指令控制同步内容到WordPress文章或说说。
 
-![6f23def5a74a92958111f672c0c42a5c.png](https://github.com/Axeuh/qq_sync_blog/blob/main/6f23def5a74a92958111f672c0c42a5c.png?raw=true)
+## 效果预览
 
-![0de57e8dc6d6ed7ed9702f84fa1f4488.png](https://github.com/Axeuh/qq_sync_blog/blob/main/0de57e8dc6d6ed7ed9702f84fa1f4488.png?raw=true)
+<table> <tr> <td align="center"><strong>登录界面</strong></td> <td align="center"><strong>同步效果</strong></td> </tr> <tr> <td><img src="https://github.com/Axeuh/qq_sync_blog/blob/main/6f23def5a74a92958111f672c0c42a5c.png?raw=true" alt="登录界面" width="100%"></td> <td><img src="https://github.com/Axeuh/qq_sync_blog/blob/main/0de57e8dc6d6ed7ed9702f84fa1f4488.png?raw=true" alt="同步效果" width="100%"></td> </tr> </table>
 
 ## 功能特点
 
@@ -130,17 +130,17 @@ sudo journalctl -u qq_blog --lines=50
 ### 常见问题
 
 1. **登录失败**
-
+   
    - 检查网络连接
    - 确认QQ账号密码正确
    - 尝试重新运行程序重新登录
 2. **图片同步失败**
-
+   
    - 检查网站目录权限
    - 确认 `web_root_path` 配置正确
    - 检查磁盘空间
 3. **WordPress发布失败**
-
+   
    - 检查XML-RPC是否启用
    - 确认用户名密码正确
    - 检查用户发布权限
@@ -161,3 +161,4 @@ sudo journalctl -u qq_blog -f
 
 ```bash
 sudo systemctl restart qq_blog
+```
