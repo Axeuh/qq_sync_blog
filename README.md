@@ -42,7 +42,7 @@ WORDPRESS_CONFIG = {
 # 网站配置
 my_web_image_url = "https://您的网站.com/qq_img/"
 web_root_path = "/www/wwwroot/您的网站.com"
-delay_time = 30  # 检查间隔（秒）
+delay_time = 120  # 检查间隔（秒）
 ```
 
 ### 2. 安装依赖
