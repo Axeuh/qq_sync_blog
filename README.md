@@ -4,7 +4,7 @@
 
 ## 效果预览
 
-<table> <tr> <td align="center"><strong>登录界面</strong></td> <td align="center"><strong>同步效果</strong></td> </tr> <tr> <td><img src="https://github.com/Axeuh/qq_sync_blog/blob/main/6f23def5a74a92958111f672c0c42a5c.png?raw=true" alt="登录界面" width="100%"></td> <td><img src="https://github.com/Axeuh/qq_sync_blog/blob/main/0de57e8dc6d6ed7ed9702f84fa1f4488.png?raw=true" alt="同步效果" width="100%"></td> </tr> </table>
+<table> <tr> <td align="center"><strong>发送说说</strong></td> <td align="center"><strong>同步效果</strong></td> </tr> <tr> <td><img src="https://github.com/Axeuh/qq_sync_blog/blob/main/6f23def5a74a92958111f672c0c42a5c.png?raw=true" alt="登录界面" width="100%"></td> <td><img src="https://github.com/Axeuh/qq_sync_blog/blob/main/0de57e8dc6d6ed7ed9702f84fa1f4488.png?raw=true" alt="同步效果" width="100%"></td> </tr> </table>
 
 ## 功能特点
 
