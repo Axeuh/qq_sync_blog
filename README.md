@@ -18,18 +18,19 @@
 
 ```
 .
-├── install.sh          # 依赖安装脚本
-├── main.py            # 主程序文件
-├── requirements.txt   # Python依赖包
-├── setup.sh          # 系统服务配置脚本
-└── processed_shuoshuo.json # 运行状态记录（自动生成）
+├── config.py              # 配置文件
+├── wordpress_publisher.py # WordPress发布类
+├── qzone_crawler.py       # QQ空间爬虫类
+├── qzone_monitor.py       # 监控器类
+├── main.py               # 主程序入口
+└── requirements.txt      # 依赖包
 ```
 
 ## 安装步骤
 
 ### 1. 配置参数
 
-在 `main.py` 文件中修改以下配置：
+在 `config.py` 文件中修改以下配置：
 
 ```python
 # WordPress配置
@@ -42,7 +43,7 @@ WORDPRESS_CONFIG = {
 # 网站配置
 my_web_image_url = "https://您的网站.com/qq_img/"
 web_root_path = "/www/wwwroot/您的网站.com"
-delay_time = 120  # 检查间隔（秒）
+delay_time = 600  # 检查间隔（秒），10分钟同步一次亲测不会被封，以及拉黑
 ```
 
 ### 2. 安装依赖
